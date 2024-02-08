@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E699DFFA">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test 02"
+        android:textSize="40dp"/>
+
+    <Button
+        android:text="Quiz App"
+        android:id="@+id/quizapp"
+        android:layout_marginTop="20dp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Calculator"
+        android:id="@+id/calculator"
+        android:layout_marginTop="15dp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_marginTop="15dp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>
